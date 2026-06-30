@@ -1,6 +1,6 @@
 #! /usr/bin/env -S node --no-warnings
 import { Command } from "commander";
-import json from "../package.json" assert { type: "json" };
+import json from "../package.json" with { type: "json" };
 import commands from "../commands/index.js";
 const program = new Command();
 const version = json.version;
