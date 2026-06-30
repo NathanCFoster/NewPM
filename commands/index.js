@@ -2,8 +2,8 @@ import fs from "fs";
 import inquirer from "inquirer";
 import { homedir } from "os";
 import shell from "shelljs"
-import templates from "../config/templates.json" assert { type: "json" };
-import json_data from "../config/json_data.json" assert { type: "json" };
+import templates from "../config/templates.json" with { type: "json" };
+import json_data from "../config/json_data.json" with { type: "json" };
 import axios from "axios";
 import inquirerFileTreeSelection from "inquirer-file-tree-selection-prompt";
 import { stringify } from "yaml";
