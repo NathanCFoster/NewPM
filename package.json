@@ -1,20 +1,20 @@
 {
   "name": "awspm",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Project manager for AWS services",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ascending-llc/project-manager.git"
+    "url": "git+https://github.com/NathanCFoster/NewPM.git"
   },
   "author": "nathancfoster",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ascending-llc/project-manager/issues"
+    "url": "https://github.com/NathanCFoster/NewPM/issues"
   },
-  "homepage": "https://github.com/ascending-llc/project-manager#readme",
+  "homepage": "https://github.com/NathanCFoster/NewPM#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "commander": "^9.4.0",
